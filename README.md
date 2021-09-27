@@ -4,9 +4,9 @@
   <h1 align="center">My Portfolio ✨</h1>
 
   <p align="center">
-    <a href="https://xunxdd.github.io/portfolio">xunxdd.github.io</a>
+    <a href="https://k151202.github.io/home">k151202.github.io</a>
    modified from
-    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a> (Thanks. Hashir)
+    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a>
 
   </p>
 </p>
