@@ -20,11 +20,11 @@ const Experience = ({ experiences }) => {
     //         </Jumbotron>
     //     </Container>
     // </section>
-    <Jumbotron fluid className="bg-white m-0">
+    <Jumbotron fluid className="bg-white m-0" id="experiences">
       <Container fluid className="p-4" style={{ width: "60%" }}>
         <hr />
         <h2 className="display-4 p-3 text-center" style={{ fontSize: "3em" }}>
-          Experience
+          Experiences
         </h2>
         <hr />
         <div class="row">

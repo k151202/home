@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Taehyung",
   middleName: "",
   lastName: "Kim",
-  message: " AI / ML Developer | Front-end | Back-end ",
+  message: " AI / ML Developer | Learning is my hobby! ",
   icons: [
     {
       image: "fa-github",
@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/profile.jpeg"),
   imageSize: 300,
   message:
-    "Hello. My name is Taehyung! I’m a graduate of 2015 from Seoul National University of Science and Technology with a degree in Manufacturing System and Design Engineering. I like to commnunicate with people and share thoughts about technology. Currently, I'm studying and researching about AI and ML for a job.",
+    "Hello. My name is Taehyung! I'm a newbie developer who just got transitioned after various industry experiences. I like to commnunicate with people and share thoughts about technology. Currently, I'm on a bootcamp at Choongang Computer Institute where I learn AI / ML full-stack development.",
   resume: "#blank",
 };
 
@@ -91,9 +91,15 @@ const leadership = {
 };
 
 // SKILLS SECTION
-const skills = {
+const stats = {
   show: true,
   heading: "Skills",
+};
+
+// STATS SECTION
+const skills = {
+  show: true,
+  heading: "Stats",
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "SQL", value: 65 },
@@ -175,7 +181,8 @@ export {
   about,
   repos,
   skills,
-  leadership,
+  stats,
+  // leadership,
   getInTouch,
   experiences,
 };
