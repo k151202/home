@@ -68,26 +68,26 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    {
-      img: require("../editable-stuff/profile.jpeg"),
-      label: "First slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-    },
-    {
-      img: require("../editable-stuff/profile.jpeg"),
-      label: "Second slide label",
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-    },
-  ],
-  imageSize: {
-    width: "615",
-    height: "450",
-  },
+  // show: false,
+  // heading: "Leadership",
+  // message:
+  //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+  // images: [
+  //   {
+  //     img: require("../editable-stuff/profile.jpeg"),
+  //     label: "First slide label",
+  //     paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+  //   },
+  //   {
+  //     img: require("../editable-stuff/profile.jpeg"),
+  //     label: "Second slide label",
+  //     paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+  //   },
+  // ],
+  // imageSize: {
+  //   width: "615",
+  //   height: "450",
+  // },
 };
 
 // SKILLS SECTION
@@ -126,18 +126,40 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: "Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/dell.png"),
-      date: "June 2018 – Present",
+      role: "AI / ML bootcamp",
+      location: "Choongang Computer Institute",
+      date: "April 2021 ~ October 2021",
+      description: "Studying AI / ML development",
     },
     {
-      role: "Front-End Developer",
-      companylogo: require("../assets/img/boeing.png"),
-      date: "May 2017 – May 2018",
+      role: "Real estate Developer",
+      location: "Loowon Real Estate Development Company",
+      date: "May 2020 ~ November 2020",
+      description:
+        "I worked as a real estate developer in Ulsan. My main job was analyzing location, balance, and demand forecasting.",
+    },
+    {
+      role: "Founder",
+      location: "Studio MF",
+      date: "2017 ~ 2020",
+      description:
+        "I founded a video production company in 2017. Main work was producing commercial video for companies.",
+    },
+    {
+      role: "Founder",
+      location: "Mium Entertainment",
+      date: "2014 ~ 2017",
+      description: "Music recordings, events, live concerts",
+    },
+    {
+      role: "Degree in Manufacturing System and Design Engineering",
+      location: "Seoul National University of Science and Technology",
+      date: "March 2008 ~ August 2015",
+      description: "Education ",
     },
   ],
 };
