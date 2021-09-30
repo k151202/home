@@ -153,19 +153,21 @@ const experiences = {
       location: "Studio MF",
       date: "2017 ~ 2020",
       description:
-        "I founded a video production company in 2017. Main work was producing commercial video for companies.",
+        "I founded a video production company in 2017 to focus more on video business. Main work was producing commercial video for companies.",
     },
     {
       role: "Founder",
       location: "Mium Entertainment",
       date: "2014 ~ 2017",
-      description: "Music recordings, events, live concerts",
+      description:
+        "I co-founded a company with my alumni. The company was mainly for music industry; recordings, event planning and music videos",
     },
     {
-      role: "Degree in Manufacturing System and Design Engineering",
+      role: "Getting Degrees",
       location: "Seoul National University of Science and Technology",
       date: "March 2008 ~ August 2015",
-      description: "Education ",
+      description:
+        "I got a degree in Industrial Engineering at Seoul Tech in Seoul, Korea. As I attended dual degree program, I also got degree in Manufacturing System and Design Engineering at Northumbria University in New Castle, UK. ",
     },
   ],
 };
