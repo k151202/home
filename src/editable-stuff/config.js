@@ -136,6 +136,12 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: "AI / NLP Junior Developer",
+      location: "SunnyMind Inc.",
+      date: "November 2021 ~ Current",
+      description: "I'm working as NLP developer in SunnyMind Inc. I'm building a microservice which analyzes e-commerce reviews written in Korean and English.",
+    },
+    {
       role: "AI / ML bootcamp",
       location: "Choongang Computer Institute",
       date: "April 2021 ~ October 2021",
